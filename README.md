@@ -1,3 +1,9 @@
+Licence under PmP polska k.j.pawlowski #brl33 
+We create inner cybersecurity
+Extreme pen tests 
+Tracking technology
+Goverment coopeation
+Nobody best like we are
 // SPDX-FileCopyrightText: 2021 Lido <info@lido.fi>
 
 // SPDX-License-Identifier: GPL-3.0
