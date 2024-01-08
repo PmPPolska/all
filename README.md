@@ -1,35 +1,35 @@
-Licence under PmP polska k.j.pawlowski #brl33 
-We create inner cybersecurity
-Extreme pen tests 
-Tracking technology
-Goverment coopeation
-Nobody best like we are
-// SPDX-FileCopyrightText: 2021 Lido <info@lido.fi>
+#Licence under PmP polska k.j.pawlowski #brl33 
+##We create inner cybersecurity
+###Extreme pen tests 
+####Tracking technology
+#####Goverment coopeation
+######Nobody best like we are
+/SPDX-FileCopyrightText: 2021 Lido <info@lido.fi>
 
 // SPDX-License-Identifier: GPL-3.0
 
-/* See contracts/COMPILERS.md */
+/// See contracts/COMPILERS.md */
 pragma solidity 0.8.9;
 
-import "@openzeppelin/contracts-v4.4/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts-v4.4/token/ERC721/IERC721.sol";
-import "@openzeppelin/contracts-v4.4/token/ERC20/utils/SafeERC20.sol";
+///import "@openzeppelin/contracts-v4.4/token/ERC20/IERC20.sol";
+///import "@openzeppelin/contracts-v4.4/token/ERC721/IERC721.sol";
+///import "@openzeppelin/contracts-v4.4/token/ERC20/utils/SafeERC20.sol";
 
-interface ILido {
-    /**
-      * @notice A payable function supposed to be called only by LidoExecLayerRewardsVault contract
-      * @dev We need a dedicated function because funds received by the default payable function
-      * are treated as a user deposit
-      */
-    function receiveELRewards() external payable;
-}
+/interface ILido {
+    //
+      ///@notice A payable function supposed to be called only by LidoExecLayerRewardsVault contract
+      //// @dev We need a dedicated function because funds received by the default payable function
+      ///// are treated as a user deposit
+      /
+    function receiveELRewards(/) external payable;
+#
 
 
-/**
- * @title A vault for temporary storage of execution layer rewards (MEV and tx priority fee)
- */
-contract LidoExecutionLayerRewardsVault {
-    using SafeERC20 for IERC20;
+/
+ //@title A vault for temporary storage of execution layer rewards (MEV and tx priority fee)
+ ///
+#contract LidoExecutionLayerRewardsVault {
+    ##using SafeERC20 for IERC20;
 
     address public immutable LIDO;
     address public immutable TREASURY;
